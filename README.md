@@ -1,7 +1,7 @@
 ## Used Libraries
-TailwindCSS - https://www.npmjs.com/package/tailwindcss
-React Slick - https://www.npmjs.com/package/react-slick
-React Datepicker - https://www.npmjs.com/package/react-datepicker
+TailwindCSS - https://www.npmjs.com/package/tailwindcss<br/>
+React Slick - https://www.npmjs.com/package/react-slick<br/>
+React Datepicker - https://www.npmjs.com/package/react-datepicker<br/>
 
 ## Available Scripts
 
