@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Used Libraries
+TailwindCSS - [https://www.npmjs.com/package/tailwindcss]https://www.npmjs.com/package/tailwindcss
+React Slick - [https://www.npmjs.com/package/react-slick]https://www.npmjs.com/package/react-slick
+React Datepicker - [https://www.npmjs.com/package/react-datepicker]https://www.npmjs.com/package/react-datepicker
 
 ## Available Scripts
 
