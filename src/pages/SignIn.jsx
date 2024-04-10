@@ -10,7 +10,12 @@ function SignIn() {
   const [isOpen, setIsOpen] = useState(false)
 
   const onSubmit = (data) => {
-    if(users.some(user => user.email == data.email && user.password == data.password)) {
+    if(users == null) {
+      setError("email", {
+        type: "manual",
+        message: "Try to sign up",
+      })
+    } else if(users.some(user => user.email == data.email && user.password == data.password)) {
       localStorage.setItem("user", JSON.stringify({
         email: data.email,
         password: data.password

@@ -12,14 +12,12 @@ function SignUp() {
   const users = JSON.parse(localStorage.getItem("users"))
 
   const onSubmit = (data) => {
-    const userData = {
-      email: data.email,
-      firstname: data.firstname,
-      lastname: data.lastname,
-      password: data.password,
-      photo: data.photo
-    }
-    if(!users.some(user => user.email == data.email)) {
+    if(users == null) {
+      localStorage.setItem("user", JSON.stringify(data))
+      localStorage.setItem("users", JSON.stringify([data]))
+      
+      window.location.href = "/"
+    } else if(!users.some(user => user.email == data.email)) {
       localStorage.setItem("user", JSON.stringify(data))
       localStorage.setItem("users", JSON.stringify(users ? [...users, data] : [data]))
   
