@@ -1,0 +1,92 @@
+[
+    {
+        "airline": "Georgian Airlines",
+        "airline_img": "airline_img.jpg",
+        "take_off": "12:00",
+        "landing": "19:00",
+        "duration": 7,
+        "stops": "1",
+        "price": 1500,
+        "date": "2024 3 8"
+    },
+    {
+        "airline": "Georgian Airlines",
+        "airline_img": "airline_img.jpg",
+        "take_off": "12:00",
+        "landing": "19:00",
+        "duration": 10,
+        "stops": "2",
+        "price": 700,
+        "date": "2024 3 10"
+    },
+    {
+        "airline": "Georgian Airlines",
+        "airline_img": "airline_img.jpg",
+        "take_off": "12:00",
+        "landing": "19:00",
+        "duration": 28,
+        "stops": "0",
+        "price": 1000,
+        "date": "2024 4 12"
+    },
+    {
+        "airline": "Georgian Airlines",
+        "airline_img": "airline_img.jpg",
+        "take_off": "12:00",
+        "landing": "19:00",
+        "duration": 8,
+        "stops": "1",
+        "price": 1200,
+        "date": "2024 2 1"
+    },
+    {
+        "airline": "Georgian Airlines",
+        "airline_img": "airline_img.jpg",
+        "take_off": "12:00",
+        "landing": "19:00",
+        "duration": 7,
+        "stops": 1,
+        "price": 3000,
+        "date": "2024 3 28"
+    },
+    {
+        "airline": "Georgian Airlines",
+        "airline_img": "airline_img.jpg",
+        "take_off": "12:00",
+        "landing": "19:00",
+        "duration": 15,
+        "stops": "1",
+        "price": 2100,
+        "date": "2024 3 1"
+    },
+    {
+        "airline": "Georgian Airlines",
+        "airline_img": "airline_img.jpg",
+        "take_off": "12:00",
+        "landing": "19:00",
+        "duration": 9,
+        "stops": 1,
+        "price": 750,
+        "date": "2024 4 4"
+    },
+    {
+        "airline": "Georgian Airlines",
+        "airline_img": "airline_img.jpg",
+        "take_off": "12:00",
+        "landing": "19:00",
+        "duration": 12,
+        "stops": "1",
+        "price": 1800,
+        "date": "2024 6 1"
+    },
+    {
+        "airline": "Georgian Airlines",
+        "airline_img": "airline_img.jpg",
+        "take_off": "12:00",
+        "landing": "19:00",
+        "duration": 30,
+        "stops": "1",
+        "price": 2500,
+        "date": "2024 6 4"
+    }
+]

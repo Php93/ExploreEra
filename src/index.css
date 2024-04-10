@@ -1,5 +1,40 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+a {
+    text-decoration: unset !important;
+    color: unset !important;
+}
+.slick-slide > div { 
+    margin: 0 10px; 
+}
+.slick-list {
+    padding-left: 0 !important;
+}
+.slick-prev, .slick-next {
+    display: none !important;
+}
+.media_auth_block {
+    @apply flex justify-center items-center border-2 border-[#424244] rounded-lg w-16 h-16
+}
+.dropdown_item {
+    @apply my-1 p-1 pl-2 rounded-lg hover:bg-gray-200 transition-all duration-200 ease-in-out
+}
+.auth_label {
+    @apply text-sm text-[#424244] mt-2 ml-3 mb-2
+}
+.auth_input {
+    @apply border-2 border-main px-3 py-2 rounded-xl placeholder:text-[#424244] outline-none
+}
+.auth_error {
+    @apply text-red-600 ml-3 mb-0
+}
+#slider .range-slider__thumb {
+    background: white;
+    @apply border-2 border-[#C85100]
+}
+#slider .range-slider__range {
+    background: #C85100;
+    transition: height 0.3s;
+}

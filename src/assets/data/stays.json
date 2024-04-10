@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 5,
+        "price": "400"
+    },
+    {
+        "id": 2,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 3,
+        "price": "400"
+    },
+    {
+        "id": 3,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 4,
+        "price": "400"
+    },
+    {
+        "id": 4,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 2,
+        "price": "400"
+    },
+    {
+        "id": 5,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 3,
+        "price": "400"
+    },
+    {
+        "id": 6,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 5,
+        "price": "400"
+    },
+    {
+        "id": 7,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 4,
+        "price": "400"
+    },
+    {
+        "id": 8,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 5,
+        "price": "400"
+    },
+    {
+        "id": 9,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 1,
+        "price": "400"
+    },
+    {
+        "id": 10,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 4,
+        "price": "400"
+    },
+    {
+        "id": 11,
+        "img": "hotel.png",
+        "title": "New Zealand Resort",
+        "address": "54 Street, Auckland, New Zealand",
+        "from_center": "1 km away from center",
+        "description": "Near beach, with private beach area and private pool. Property has terrace, kitchen, 2 bathrooms.",
+        "stars": 2,
+        "price": "400"
+    }
+]

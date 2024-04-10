@@ -1,0 +1,38 @@
+[
+    {
+        "img": "offer1.png",
+        "title": "Barcelona, Spain",
+        "info": "2 adults, 7 days",
+        "price": "2400$"
+    },
+    {
+        "img": "offer2.png",
+        "title": "Rome, Italy",
+        "info": "2 adults, 3 days",
+        "price": "1800$"
+    },
+    {
+        "img": "offer3.png",
+        "title": "Paris, France",
+        "info": "2 adults, 4 days",
+        "price": "2100$"
+    },
+    {
+        "img": "offer4.png",
+        "title": "Luxor City, Egypt",
+        "info": "2 adults, 3 days",
+        "price": "800$"
+    },
+    {
+        "img": "offer1.png",
+        "title": "Barcelona, Spain",
+        "info": "2 adults, 7 days",
+        "price": "2400$"
+    },
+    {
+        "img": "offer2.png",
+        "title": "Rome, Italy",
+        "info": "2 adults, 3 days",
+        "price": "1800$"
+    }
+]
