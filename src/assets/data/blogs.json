@@ -1,25 +1,31 @@
 [
     {
+        "id": 1,
         "img": "blog1.png",
         "title": "Interesting Tibetan Traditions"
     },
     {
+        "id": 2,
         "img": "blog2.png",
         "title": "Are There Volcanos In Hawaii?"
     },
     {
+        "id": 3,
         "img": "blog3.png",
         "title": "Winter in Iceland"
     },
     {
+        "id": 4,
         "img": "blog1.png",
         "title": "Interesting Tibetan Traditions"
     },
     {
+        "id": 5,
         "img": "blog2.png",
         "title": "Are There Volcanos In Hawaii?"
     },
     {
+        "id": 6,
         "img": "blog3.png",
         "title": "Winter in Iceland"
     }

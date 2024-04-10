@@ -41,7 +41,9 @@ function Header({showLinks}) {
           <ul className='flex m-0'>
             {showLinks && (
               <div className='hidden lg:flex gap-10'>
-                <li>Home</li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
                 <li>
                   <Link to="/services">Services</Link>
                 </li>

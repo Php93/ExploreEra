@@ -62,7 +62,7 @@ function Home() {
             <Modal title={"Discover Our Services"} setIsOpen={setIsModalOpen}>
                 <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
                     {services.map((service) => (
-                        <div>
+                        <div key={service.title}>
                             <img src={require(`../assets/img/serviceImages/${service.img}`)} alt={service.img}/>
                             <h3 className="text-2xl font-medium my-2.5">{service.title}</h3>
                         </div>
@@ -97,7 +97,7 @@ function Home() {
 
                     <div className="grid grid-cols-1 justify-center items-center !gap-2 sm:grid-cols-2 sm:!gap-4 lg:grid-cols-4">
                         {services.slice(0,4).map((service) => (
-                            <div className="mt-5 lg:mt-0">
+                            <div key={service.title} className="mt-5 lg:mt-0">
                                 <img className="w-full" src={require(`../assets/img/serviceImages/${service.img}`)} alt={service.img}/>
                                 <h3 className="text-2xl font-medium my-1 lg:my-2.5">{service.title}</h3>
                                 <p className="leading-5">{service.description}</p>
@@ -114,7 +114,7 @@ function Home() {
                     <h2 className="text-3xl font-medium">Watch Our Memorable Trips</h2>
 
                     <div className="mt-3 lg:mt-10">
-                        <iframe className="w-full h-screen" src="https://www.youtube.com/embed/7ubqmp65kE4?si=AoZa829GE6VWlFSp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe className="w-full h-screen" src="https://www.youtube.com/embed/7ubqmp65kE4?si=AoZa829GE6VWlFSp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </div>
                 </div>
 
@@ -138,7 +138,7 @@ function Home() {
                     <div>
                         <Slider className="flex items-center gap-5" ref={slider} {...settings}>
                             {offers.map((offer) => (
-                                <div className="mr-5">
+                                <div key={offer.title} className="mr-5">
                                     <img className="z-0" src={require(`../assets/img/offerImages/${offer.img}`)} alt={offer.title}/>
                                     <h3 className="text-2xl font-medium my-2.5">{offer.title}</h3>
                                     <p className="">{offer.info}</p>
@@ -154,7 +154,7 @@ function Home() {
                     
                     <div className="grid grid-cols-1 !gap-1 sm:grid-cols-2 sm:!gap-4 lg:grid-cols-3">
                         {blogs.map((blog) => (
-                            <div>
+                            <div key={blog.id}>
                                 <img src={require(`../assets/img/blogImages/${blog.img}`)} alt={blog.title} />
                                 <h3 className="text-2xl font-medium my-2.5">{blog.title}</h3>
                             </div>
@@ -170,7 +170,7 @@ function Home() {
                     <div className="grid grid-cols-1 !gap-2 md:grid-cols-2 md:!gap-4">
                         <Select placeHolder="Your starting location" isOpen={isSelectOpen} setIsOpen={setIsSelectOpen} selected={selected} setSelected={setSelected}>
                             {options.map((option) => (
-                                <span className="cursor-pointer" onClick={(e) => {
+                                <span key={option.label} className="cursor-pointer" onClick={(e) => {
                                     setSelected(option.label);
                                     setIsSelectOpen(!isSelectOpen);
                                 }}>

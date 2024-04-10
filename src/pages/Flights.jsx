@@ -85,7 +85,7 @@ function Flights() {
                     </div>
 
                     <div className="flex flex-col mt-3">
-                        <label for="direct">
+                        <label htmlFor="direct">
                             <input value={0} className="scale-150 mr-3" type="checkbox" id="direct" name="direct" onChange={(e) => {
                                 changeStop(e)
                                 filterAndShow()
@@ -93,12 +93,12 @@ function Flights() {
                             Direct
                         </label>
 
-                        <label for="one">
+                        <label htmlFor="one">
                             <input value={1} className="mr-3 scale-150" type="checkbox" id="one" name="one" onChange={changeStop}  />
                             One Stop
                         </label>
 
-                        <label for="two">
+                        <label htmlFor="two">
                             <input value={2} className="mr-3 scale-150" type="checkbox" id="two" name="two" onChange={changeStop}  />
                             Two Stop
                         </label>
@@ -340,7 +340,7 @@ function Flights() {
                         
                         <div className="w-full rounded-2xl lg:col-span-9">
                             {results.length > 0 ? (results.map((result) => (
-                                <div className="p-3 mb-5 w-full bg-white rounded-2xl sm:p-5">
+                                <div key={result.id} className="p-3 mb-5 w-full bg-white rounded-2xl sm:p-5">
                                     <div className="grid grid-cols-5 text-xs sm:text-sm lg:grid-cols-12 lg:gap-4">
                                         <div className="hidden col-span-1 items-center lg:flex">
                                             <span>{new Date(result.date).toDateString()}</span>

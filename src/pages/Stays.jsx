@@ -269,7 +269,7 @@ function Stays({setId}) {
         
                             <div className="mt-5">
                                 {results.map((result) => (
-                                    <div className="h-80 flex justify-center items-start gap-4 p-4 mb-5 bg-white rounded-2xl md:gap-8 lg:grid grid-cols-8 lg:p-8">
+                                    <div key={result.title} className="h-80 flex justify-center items-start gap-4 p-4 mb-5 bg-white rounded-2xl md:gap-8 lg:grid grid-cols-8 lg:p-8">
                                         <div className="w-full h-full col-span-3 md:w-fit">
                                             <img className="h-full object-cover rounded-xl" src={require(`../assets/img/${result.img}`)} alt="" />
                                         </div>
@@ -323,7 +323,7 @@ function Stays({setId}) {
         
                         <Slider className="flex items-center gap-5 mt-5" ref={slider} {...settings}>
                             {propertyType.map((property) => (
-                                <div className="mr-5">
+                                <div key={property.title} className="mr-5">
                                     <img className="z-0" src={require(`../assets/img/propertyImages/${property.img}`)} alt={property.title}/>
                                     <h3 className="text-2xl font-medium my-2.5">{property.title}</h3>
                                 </div>
